@@ -190,7 +190,7 @@
         <label>Favorite Coffee:</label>
       <label for="coffee-select"></label>
       <input list="coffee-types" id = "coffee-select" name = "coffee-select" />
-        <datalist id="coffee-types">
+        <select id="coffee-types">
           <optgroup label="Common coffee types">
             <option>Americano</option>
             <option>Frappe</option>
@@ -201,6 +201,13 @@
             <option>Egg Coffee</option>
             <option>Olive Oil Coffee</option>
           </optgroup>
+        </select>
+        <label for="keyword-select">Coolest-sounding keyword</label>
+        <input list = "keyword-types" id="keyword-select" name="keyword-select" placeholder = "Type or Choose" />
+        <datalist>
+          <option>Quantum Entanglement</option>
+          <option>Temporal Mechanics</option>
+          <option>Corporate Physics</option>
         </datalist>
       </fieldset>
       </form>
